@@ -1,0 +1,5 @@
+CREATE TABLE url_info(
+id int(11) PRIMARY KEY AUTO_INCREMENT,
+url varchar(50),
+create_time timestamp
+);
