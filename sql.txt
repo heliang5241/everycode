@@ -3,3 +3,11 @@ id int(11) PRIMARY KEY AUTO_INCREMENT,
 url varchar(50),
 create_time timestamp
 );
+
+CREATE TABLE snmp_info(
+id int(11) PRIMARY KEY AUTO_INCREMENT,
+ip varchar(20),
+sysName varchar(50),
+sysContact varchar(50),
+create_time timestamp
+);
